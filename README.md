@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/python-3.11-blue?logo=python)
+![License](https://img.shields.io/github/license/KernFerm/football-vision-analytics-platform)
+![Issues](https://img.shields.io/github/issues/KernFerm/football-vision-analytics-platform)
+![Pull Requests](https://img.shields.io/github/issues-pr/KernFerm/football-vision-analytics-platform)
+![Stars](https://img.shields.io/github/stars/KernFerm/football-vision-analytics-platform?style=social)
+![Forks](https://img.shields.io/github/forks/KernFerm/football-vision-analytics-platform?style=social)
+
+
 # ⚽ Football Vision Analytics Platform
 
 A comprehensive computer vision solution for automated football match analysis with player tracking, tactical insights, and performance metrics.
@@ -208,4 +216,5 @@ If you are running tests, note that the `models/` directory may be cleaned up by
 ## License
 
 This project is licensed under the MIT License.
+
 
