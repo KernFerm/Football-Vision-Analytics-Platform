@@ -108,7 +108,7 @@ def process_video_with_yolo(video_path):
     fps = int(cap.get(cv2.CAP_PROP_FPS))
 
     # Tạo đường dẫn video đã xử lý
-    processed_video_path = path.join(app.config["UPLOAD_FOLDER"], f"processed_{path.basename(video_path)}")
+    processed_video_path = os.path.join(app.config["UPLOAD_FOLDER"], f"processed_{os.path.basename(video_path)}")
     out = cv2.VideoWriter(processed_video_path, cv2.VideoWriter_fourcc(*"avc1"), fps, (frame_width, frame_height))
 
     # Xử lý từng frame
@@ -217,4 +217,4 @@ def home():
     return "<h2>Football Tracking and Analysis API is running.<br>Use /api/login or /api/upload-video endpoints.</h2>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
