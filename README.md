@@ -173,6 +173,28 @@ It is designed for integration with a frontend dashboard or for use in analytics
 
 ---
 
+
+## ⚠️ Model Files Required
+
+**Important:** This project requires certain machine learning model files (such as YOLO weights and keypoint models) to function. These files are **not provided** in this repository due to licensing and file size restrictions.
+
+- You must manually obtain the correct model files (e.g., `yolov8n.pt`, `key_points_pitch_ver2.pt`, etc.) and place them in the `models/` directory at the project root.
+- The application will not run correctly without these files.
+- Refer to the documentation of the specific models you wish to use for download instructions.
+
+**Example:**
+
+```
+football_tracking_and_analysis-main/
+	models/
+		yolov8n.pt
+		key_points_pitch_ver2.pt
+```
+
+If you are running tests, note that the `models/` directory may be cleaned up by test scripts. Recreate it and add your model files again before running the application.
+
+---
+
 ## Notes
 
 - The `install.sh` script is for Linux systems only.
