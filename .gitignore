@@ -1,10 +1,2 @@
-# models/
-# outputs/
-# inputs/
-
-*.pt
-*.mp4
-*.pkl
-*.avi
-*.db
-
+# Ignore All Files and Folders
+*
