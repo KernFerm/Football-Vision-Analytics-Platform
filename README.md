@@ -89,7 +89,7 @@ If you forgot to add Python to PATH, rerun the installer and choose "Modify", th
 
 1. **Clone the repository:**
 	```powershell
-	git clone <repo-url>
+	git clone https://github.com/KernFerm/Football-Vision-Analytics-Platform.git
 	cd football_tracking_and_analysis-main
 	```
 2. **(Recommended) Create and activate a virtual environment:**
@@ -216,5 +216,6 @@ If you are running tests, note that the `models/` directory may be cleaned up by
 ## License
 
 This project is licensed under the MIT License.
+
 
 
